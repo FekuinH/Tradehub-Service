@@ -51,6 +51,6 @@ public class MarketEntity {
         return new MarketEntity(market.id(),
                 market.code(),
                 market.description(),
-                market.country());
+                market.country().toUpperCase());
     }
 }
