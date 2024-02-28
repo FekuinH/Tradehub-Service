@@ -1,4 +1,5 @@
 package com.decrypto.tradehub.models;
 
-public record CountryStatsDTO() {
-}
+import java.util.List;
+
+public record CountryStatsDTO(String country, List<MarketStatsDTO> market) {}
