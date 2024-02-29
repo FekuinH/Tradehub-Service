@@ -2,6 +2,12 @@
 
 ## Descripción
 Tradehub Service es una API REST desarrollada para gestionar comitentes y mercados, permitiendo la creación, actualización, y eliminación de estos, así como la asociaciones entre ellos.
+
+## Pre-Requisitos
+* maven
+* postgres
+* java 17
+
 ## Configuración Local
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
